@@ -9,3 +9,4 @@ MCU Esp32:    https://en.wikipedia.org/wiki/ESP32
 
 
 [Schematic.pdf](documentation/schematic.pdf)
+"# esp32_asyncws" 
