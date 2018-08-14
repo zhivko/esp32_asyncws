@@ -1,4 +1,5 @@
-// platformio run --target uploadfs
+// Upload spiffs within ms vs code platformio with:
+//    platformio run --target uploadfs
 // C:\Users\klemen\Dropbox\Voga\BleVogaLifter-esp32-DRV8703Q>c:\Python27\python.exe c:\Users\klemen\.platformio\packages\framework-arduinoespressif32\tools\esptool.py --chip esp32 --port COM3 --baud 115200 --before default_reset --after hard_reset erase_flash
 // https://github.com/thehookup/ESP32_Ceiling_Light/blob/master/GPIO_Limitations_ESP32_NodeMCU.jpg
 // Need to test: VL53L0X
