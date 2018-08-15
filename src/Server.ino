@@ -244,6 +244,8 @@ void loop(){
 
 IRAM_ATTR void reportJson(void *pvParameters)
 {
+  for(;;)
+  {
   if(ws.count()>0)
   {
     reportingJson = true;
@@ -348,6 +350,8 @@ IRAM_ATTR void reportJson(void *pvParameters)
     txtToSend.concat("}");
 
     ws.textAll(txtToSend.c_str());
+  }
+  vTaskDelay(250 / portTICK_PERIOD_MS);
   }
 }
 
